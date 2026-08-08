@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Runtime artifacts never belong in the code repository.
+/models/
+/pretrained/
+/outputs/
+/logs/
+/data/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.pkl
+*.jsonl
+
+# Secrets and local credentials.
+*.pem
+*.key
+credentials*
+.hf_token

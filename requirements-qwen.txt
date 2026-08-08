@@ -1,0 +1,10 @@
+# Keep this in a separate environment from requirements-main.txt.
+# Install a PyTorch build matching the target machine's CUDA driver first.
+vllm==0.18.0
+transformers==4.57.6
+qwen-vl-utils==0.0.14
+huggingface-hub==0.36.2
+accelerate==1.13.0
+numpy==2.2.6
+Pillow==12.1.1
+
